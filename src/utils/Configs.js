@@ -12,7 +12,7 @@ export const getBackEndUrl = () => {
 
     // Invoice URLs
     CONFIG.invoicesEndpoint = `${CONFIG.bffBaseUrl}invoices/PENDING`;
-    CONFIG.invoiceUpdateEndpoint = `${CONFIG.bffBaseUrl}invoice/`;
+    CONFIG.invoiceUpdateEndpoint = `${CONFIG.bffBaseUrl}invoices/`;
 
     return CONFIG;
 };

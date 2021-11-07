@@ -13,34 +13,6 @@ const Wrapper = styled.div`
   align-items: center;
   background: #e6ddc4;
   padding: 30px 0;
-  .form {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-  }
-  .buttonContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .item {
-    margin: 20px 0;
-  }
-  .button {
-    margin: 5px 0;
-    width: 100%;
-  }
-  a {
-    diplay: block;
-    width: 100% !important;
-    text-decoration: none;
-  }
-  @media only screen and (max-width: 600px) {
-    .form {
-      width: 90%;
-    }
-  }
 `;
 
 const SignIn = () => {
@@ -77,4 +49,5 @@ const SignIn = () => {
         </Wrapper>
     );
 };
+
 export default SignIn;
