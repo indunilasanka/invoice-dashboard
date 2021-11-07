@@ -1,12 +1,14 @@
 #Invoice Dashboard
 
-
 ##How to Run
 
-Open terminal and execute following commands
+1. Open terminal and execute following commands
 
-Install dependencies - `npm install`
+    Install dependencies - `npm install`
 
-Run application - `npm start`
 
-Make sure BackEnd API is running in the background
+3. Start BackEnd API in background
+
+4. If needed, update BackEnd API host:port in util/Configs.js 
+
+5. Run frontend application - `npm start`
