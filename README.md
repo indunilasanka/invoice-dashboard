@@ -2,13 +2,13 @@
 
 ##How to Run
 
-1. Open terminal and execute following commands
+1. Open terminal and execute following command install dependencies
 
-    Install dependencies - `npm install`
+   `npm install`
 
 
 3. Start BackEnd API in background
 
 4. If needed, update BackEnd API host:port in util/Configs.js 
 
-5. Run frontend application - `npm start`
+5. Run FrontEnd application - `npm start`

@@ -15,6 +15,13 @@ const Wrapper = styled.div`
   .button {
     width: 50%;
   }
+  
+  .Mui-selected {
+    background: #3f51b5;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 8px;
+  }
   }`;
 
 function TabPanel(props) {
@@ -80,7 +87,7 @@ export default function Invoice() {
 
     return (
         <Wrapper>
-            <ButtonGroup style={{display: "flex", justifyContent: "center", margin: "25px 0"}}>
+            <ButtonGroup style={{display: "flex", justifyContent: "center", margin: "50px 0"}}>
                 <Button color="primary" variant={"contained"} className="button">
                     Pending Invoices
                 </Button>
@@ -117,8 +124,9 @@ export default function Invoice() {
                                         className="price-point">{el.grossAmount}</span></li>
                                     <li className="price-fields"><span>Discount</span>:<span
                                         className="price-point">{el.discount}</span></li>
-                                    <li className="price-fields"><span>Net Amount</span>:<span
-                                        className="price-point">{el.netAmount}</span></li>
+                                    <li className="price-fields" style={{borderTop: "1px solid"}}><span>Net Amount</span>:<span
+                                        className="price-point">{el.netAmount}</span>
+                                    </li>
                                 </div>
                             </div>
                             <span className="status invoice-field"> Status: <span className="status" style={{
